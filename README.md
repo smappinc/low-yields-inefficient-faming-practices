@@ -18,7 +18,7 @@ practices
 
 // a function that asks the farmer for information of his farm
 
-function getFarmersInformation {
+function getFarmersInformation():
 
     // ask the farmer his name
     string farmersName = "Edward Yakinsuho"
@@ -28,11 +28,10 @@ function getFarmersInformation {
 
     //store the farmers choice
     integer farmersChoice = "1"
-}
 
 // a function that shows the farmer demonstration farms 
 
-function showDemonstrationFarms {
+function showDemonstrationFarms():
 
     // using the farmersChoice, show a relevant demonstration farm
 
@@ -41,13 +40,11 @@ function showDemonstrationFarms {
     show demonstrationFarm[0][0] and show demonstrationFarm[0][1]
 
 
-}
-
 **Sub-Problem 2:** Limited knowledge of modern post-harvest management.
 
 // a function to get information about farmers' crops
 
-function getFarmersCropInformation{
+function getFarmersCropInformation():
 
     // ask the farmer to choose a crop they are harvesting from a list
     aray cropsList[] = {"Rice","Maize", "Coffee"}
@@ -55,11 +52,9 @@ function getFarmersCropInformation{
     // store the farmers choice
     integer farmersChoice = "1"
 
-}
-
 // a function that shows best methods of harvest
 
-function showBestHarvestingMethods{
+function showBestHarvestingMethods():
 
     // an array that has the best methods of harvest for each crop
     array cropHarvest[][] = {{"Harvesting method for rice"},{"Harvesting method for Maize"}}
@@ -67,14 +62,12 @@ function showBestHarvestingMethods{
     // show the relevant harvesting methods according to the farmers choice
     show cropHarvest[0][0]
 
-}
-
 
 **Sub-Problem 3:** Limited financial literacy and access to agricultural financing.
 
 // a function to get information about the farmers budget information
 
-function getFarmersBudgetInformation{
+function getFarmersBudgetInformation():
 
     //get the farmers monthly budget
     farmersBudget = 500000
@@ -82,13 +75,10 @@ function getFarmersBudgetInformation{
     //get the farmers monthly expenses
     farmersExpenditure = 250000
 
-}
-
 // a function that shows the farmer the best practices
 
-function showBestPractices{
+function showBestPractices():
 
     bestPractices[] = {"best practice 1", "best practice 2"}
-}
 
 
